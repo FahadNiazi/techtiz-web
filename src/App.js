@@ -3,7 +3,9 @@ import { NavBar } from "./components/NavBar";
 import { Introduction } from "./components/Introduction";
 import { OverView } from "./components/OverView";
 import { OurServices } from "../src/components/ourServices";
-import { Card } from "@material-ui/core";
+import { Offer } from "./components/offer";
+import { ChooseUs } from "./components/chooseUs";
+
 function App() {
   return (
     <div>
@@ -11,6 +13,8 @@ function App() {
       <Introduction />
       <OverView />
       <OurServices />
+      <Offer />
+      <ChooseUs />
     </div>
   );
 }
