@@ -1,20 +1,15 @@
 import "./App.css";
-import { NavBar } from "./components/NavBar";
-import { Introduction } from "./components/Introduction";
-import { OverView } from "./components/OverView";
-import { OurServices } from "../src/components/ourServices";
-import { Offer } from "./components/offer";
-import { ChooseUs } from "./components/chooseUs";
+
+import { ContactUs } from "./components/contactUs/contactUs";
+import { Footer } from "./components/Footer/Footer";
+import { PrivacyPolocy } from "./components/privacyPolicy";
 
 function App() {
   return (
-    <div>
-      <NavBar />
-      <Introduction />
-      <OverView />
-      <OurServices />
-      <Offer />
-      <ChooseUs />
+    <div style={{ overflow: "hidden" }}>
+      <ContactUs />
+      <Footer />
+      <PrivacyPolocy />
     </div>
   );
 }

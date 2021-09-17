@@ -38,28 +38,29 @@ export const OurServices = ({ image, name, description }) => {
       <Box className={classes.heading}>Our Services</Box>
       <Box className={classes.dFlex}>
         <Box className={classes.headingDetail}>
-          Tech Tiz specializes in all coding languages and app development
-          software, ensuring our clients are always a step ahead of the
-          competition. We deliver custom mobile application services for mobile
-          devices, IoT, augmented reality devices, and mobile devices, helping
-          you set a digital presence across all platforms.
+          Since its inception, Tech Tiz has been honing productoutput through
+          the skilled teamsthat it employs. Our main goal is to see our
+          clientsscale their business and increasetheir customer base through
+          effective, user-friendlymobile applications.These ideashave led to a
+          system that starts with and works foryou and your needs. We cater
+          tothese needs across all industries.
         </Box>
       </Box>
       <Grid spacing={8} container>
         <Cards
           image="https://techtiz.com/wp-content/uploads/2021/05/Android-2.png"
           name="Android​"
-          description="TechTiz custom mobile developers have hands-on command in android mobile app development, which streamlines your business goals"
+          description="TechTiz mobile developers utilize the open-sourcespirit of Android to give youan app thatdoes the same"
         />
         <Cards
           image="https://techtiz.com/wp-content/uploads/2021/05/Ios-1.png"
           name="iOS"
-          description="TechTiz builds secure and practical iOS applications that don’t leave a user wanting more."
+          description="TechTiz builds secure and practical iOS applicationsthat prioritize polish anduser satisfaction."
         />
         <Cards
           image="https://techtiz.com/wp-content/uploads/2021/05/responsive_screen-512-copy-1.png"
           name="Cross-Platform ​​"
-          description="Our experts design cross-platform apps to facilitate the users and help you grow across different devices."
+          description="Our experts take your app and ensure that it runs impeccably across allplatforms, spreading your reach."
         />
         <Cards
           image="https://techtiz.com/wp-content/uploads/2021/05/Web-Development-1.png"
@@ -69,12 +70,12 @@ export const OurServices = ({ image, name, description }) => {
         <Cards
           image="https://techtiz.com/wp-content/uploads/2021/05/117-1174725_cloud-computing-cloud-computing-icon-transparent-1.png"
           name="Cloud-based apps ​​"
-          description="Our experts design cross-platform apps to facilitate the users and help you grow across different devices."
+          description="TechTiz app development team is well-equipped witha wealth of codinglanguages uniquely applicable for cloud services andoptimizing your customapp."
         />
         <Cards
           image="https://techtiz.com/wp-content/uploads/2021/05/Game-Development-1.png"
           name="Game development ​​​"
-          description="Our experts design cross-platform apps to facilitate the users and help you grow across different devices."
+          description="Our 2D and 3D animators can bring your concepts tolife backed by rigorousQA testing."
         />
       </Grid>
     </Box>
