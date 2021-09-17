@@ -4,7 +4,7 @@ import rectangle2 from "../../assets/rectangle 2.png";
 import React from "react";
 import { ContactUsBtn } from "../contactusBtn";
 import { ContactInput } from "../contactInput";
-import flag from "../../assets/flag.png";
+
 import { Sales } from "../sales";
 const useStyles = makeStyles((theme) => ({
   bgClr: {
@@ -121,7 +121,6 @@ export const ContactUs = () => {
                   </Box>
                   <Box display="flex" justifyContent="center" mt={3}>
                     <ContactInput
-                      image={<img src={flag} />}
                       name="First Name* :"
                       width="255px"
                       height="43px"
